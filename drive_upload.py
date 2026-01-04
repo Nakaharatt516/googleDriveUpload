@@ -79,7 +79,7 @@ def main():
         # 完了メッセージボックス（不要なら削除可）
         root = tk.Tk()
         root.withdraw()
-        messagebox.showinfo("成功", f"アップロードが完了したんご！！！\nファイル名: {file_name}")
+        messagebox.showinfo("成功", f"アップロードが完了！！！\nファイル名: {file_name}")
         root.destroy()
 
     except Exception as e:
